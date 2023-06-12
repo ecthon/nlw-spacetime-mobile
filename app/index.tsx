@@ -19,7 +19,7 @@ export default function App() {
 
   const [, response, signInWithGithub] = useAuthRequest(
     {
-      clientId: 'd26f194cc5d5132a51be',
+      clientId: '4f18082047f0a981b13a',
       scopes: ['identity'],
       redirectUri: makeRedirectUri({
         scheme: 'nlwspacetime',
